@@ -1,2 +1,17 @@
-<h1>Pages#contact</h1>
-<p>Find me in app/views/pages/contact.html.erb</p>
+<div id="title">
+  <h3>If you are interested in more information please feel free to contact me.  Thanks!</h3>
+</div>
+
+<div class="well">
+  <h2>Location</h2>
+
+  <p>Houston/Spring/The Woodlands, Texas</p>
+
+  <h2>Phone</h2> 
+
+  <p><%= number_to_phone "1112223345" %></p>
+
+  <h2>Email</h2> 
+
+  <p><span class="btn btn-outline-secondary"><%= link_to "Email me", "mailto:amy_coffaro04@yahoo.com?subject=Website Contact" %></span></p>
+</div>

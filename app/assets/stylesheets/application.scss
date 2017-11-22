@@ -1,0 +1,125 @@
+@import "bootstrap";
+
+
+
+html {
+    background-color: gray;
+}
+h2 {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Kristi', cursive;
+    background-color: gray;
+}
+
+.home_images {
+    background-color: gray;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    right: -85px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 17px; /* Increase font size */
+    font-style: italic;
+    font-weight: 500;
+    color: dimgray;
+    border-radius: 5px 0  0 5px; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#homepage {
+    text-align: center;
+    top: 20px;
+    background-color: AliceBlue;
+}
+
+#about {
+    text-align: center;
+    top: 80px;
+    background-color: Lavender;
+}
+
+#packages {
+    text-align: end;
+    top: 140px;
+    background-color: LightCyan;
+}
+
+#contact {
+    text-align: end;
+    top: 200px;
+    background-color: Thistle;
+}
+
+h3 {
+    color: white;
+    font-family: 'Kristi', cursive;
+}
+.col-md-6, .col-md-4 {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    font-family: 'Spectral SC', serif;
+    color: white;
+    font-size: 17px;
+}
+
+#title {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Kristi', cursive;
+    background-color: gray;
+}
+
+.well a {
+    color: white;
+}
+
+
+.well {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    font-family: 'Spectral SC', serif;
+    color: white;
+    font-size: 17px;
+}
+
+.image {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.about {
+    padding: 0 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
