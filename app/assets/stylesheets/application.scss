@@ -23,44 +23,56 @@ h2 {
 /* Style the links inside the sidenav */
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
-    right: -85px; /* Position them outside of the screen */
+    left: -90px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 15px; /* 15px padding */
     width: 100px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
-    font-size: 17px; /* Increase font size */
+    font-size: 16px; /* Increase font size */
     font-style: italic;
     font-weight: 500;
     color: dimgray;
-    border-radius: 5px 0  0 5px; /* Rounded corners on the top right and bottom right side */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
 }
 
 #mySidenav a:hover {
-    right: 0; /* On mouse-over, make the elements appear as they should */
+    left: 0; /* On mouse-over, make the elements appear as they should */
 }
 
 /* The about link: 20px from the top with a green background */
 #homepage {
     text-align: center;
-    top: 20px;
+    top: 1px;
     background-color: AliceBlue;
 }
 
 #about {
     text-align: center;
-    top: 80px;
+    top: 61px;
     background-color: Lavender;
 }
 
 #packages {
-    text-align: end;
-    top: 140px;
+    text-align: start;
+    top: 121px;
     background-color: LightCyan;
 }
 
+#albums {
+    text-align: start;
+    top: 181px;
+    background-color: Lavender;
+}
+
+#proofs {
+    text-align: start;
+    top: 241px;
+    background-color: AliceBlue;
+}
+
 #contact {
-    text-align: end;
-    top: 200px;
+    text-align: start;
+    top: 301px;
     background-color: Thistle;
 }
 
