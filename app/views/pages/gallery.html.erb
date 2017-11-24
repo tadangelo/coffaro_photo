@@ -1,0 +1,73 @@
+<h1>My Gallery</h1>
+<section class="gallery">
+  <div class="carousel">
+    
+    <input type="radio" id="image1" name="gallery-control" checked>
+    <input type="radio" id="image2" name="gallery-control">
+    <input type="radio" id="image3" name="gallery-control">
+    <input type="radio" id="image4" name="gallery-control">
+    <input type="radio" id="image5" name="gallery-control">
+    
+    
+    <input type="checkbox" id="fullscreen" name="gallery-fullscreen-control"/>
+    
+    <div class="wrap">
+      
+      <figure>
+        <label for="fullscreen">
+          <%= image_tag "park.jpg", height: 1300, width: 900, alt: "image1" %>
+        </label>
+      </figure>
+
+      <figure>
+        <label for="fullscreen">
+          <%= image_tag "beach.jpg", height: 1300, width: 900, alt: "image2" %>
+        </label>
+      </figure>
+
+      <figure>
+        <label for="fullscreen">
+          <%= image_tag "letterman.jpg", height: 1300, width: 700, alt: "image3" %>
+        </label>
+      </figure>
+
+      <figure>
+        <label for="fullscreen">
+          <%= image_tag "couch.jpg", height: 1300, width: 900, alt: "image4" %>
+        </label>
+      </figure>
+
+      <figure>
+        <label for="fullscreen">
+          <%= image_tag "prom.jpg", height: 1500, width: 900, alt: "image5" %>
+        </label>
+      </figure>
+    </div>
+    
+    <div class="thumbnails">
+      
+      <div class="slider"><div class="indicator"></div></div>
+      
+      <label for="image1" class="thumb" style="background-image"> 
+        <%= image_tag "park.jpg", height: 60, width: 65 %>
+      </label>
+      
+      <label for="image2" class="thumb" style="background-image"> 
+        <%= image_tag "beach.jpg", height: 60, width: 65 %>
+      </label>
+      
+      <label for="image3" class="thumb" style="background-image"> 
+        <%= image_tag "letterman.jpg", height: 60, width: 65 %>
+      </label>
+        
+      <label for="image4" class="thumb" style="background-image"> 
+        <%= image_tag "couch.jpg", height: 60, width: 65 %>
+      </label>
+
+      <label for="image5" class="thumb" style="background-image"> 
+        <%= image_tag "prom.jpg", height: 60, width: 65 %>
+      </label>
+    </div>
+  </div>
+</section>
+ 

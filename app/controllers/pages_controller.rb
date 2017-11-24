@@ -8,6 +8,12 @@ class PagesController < ApplicationController
   def packages
   end
 
+  def album
+  end
+
+  def proofs
+  end
+
   def contact
   end
 end
