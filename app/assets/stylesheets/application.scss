@@ -1,10 +1,17 @@
 @import "bootstrap";
+@import "font-awesome";
 
 
 
 html {
     background-color: gray;
 }
+
+.col-sm-6 col-md-3 {
+    z-index: 950;
+    background-color: gray;  
+}
+
 h2 {
     padding-top: 5%;
     display: flex;
@@ -23,6 +30,7 @@ h2 {
 /* Style the links inside the sidenav */
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
+    z-index: 900; 
     left: -90px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 15px; /* 15px padding */
@@ -80,6 +88,13 @@ h3 {
     color: white;
     font-family: 'Kristi', cursive;
 }
+
+.main_image {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .col-md-6, .col-md-4 {
     padding: 5%;
     display: flex;
@@ -135,7 +150,6 @@ h3 {
     justify-content: center;
     align-items: center;
 }
-
 
 html {
   width: 100%;
@@ -414,6 +428,381 @@ body h1 {
   opacity: 1;
   cursor: default;
 }
+.gallery input#image6:checked ~ .wrap figure {
+  -webkit-transform: translateX(-500%);
+          transform: translateX(-500%);
+}
+.gallery input#image6:checked ~ .wrap figure:not(:nth-of-type(6)) {
+  opacity: 0;
+}
+.gallery input#image6:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(500%);
+          transform: translateY(500%);
+}
+.gallery input#image6:checked ~ .thumbnails .thumb:nth-of-type(6) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image7:checked ~ .wrap figure {
+  -webkit-transform: translateX(-600%);
+          transform: translateX(-600%);
+}
+.gallery input#image7:checked ~ .wrap figure:not(:nth-of-type(7)) {
+  opacity: 0;
+}
+.gallery input#image7:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(600%);
+          transform: translateY(600%);
+}
+.gallery input#image7:checked ~ .thumbnails .thumb:nth-of-type(7) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image8:checked ~ .wrap figure {
+  -webkit-transform: translateX(-700%);
+          transform: translateX(-700%);
+}
+.gallery input#image8:checked ~ .wrap figure:not(:nth-of-type(8)) {
+  opacity: 0;
+}
+.gallery input#image8:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(700%);
+          transform: translateY(700%);
+}
+.gallery input#image8:checked ~ .thumbnails .thumb:nth-of-type(8) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image9:checked ~ .wrap figure {
+  -webkit-transform: translateX(-800%);
+          transform: translateX(-800%);
+}
+.gallery input#image9:checked ~ .wrap figure:not(:nth-of-type(9)) {
+  opacity: 0;
+}
+.gallery input#image9:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(800%);
+          transform: translateY(800%);
+}
+.gallery input#image9:checked ~ .thumbnails .thumb:nth-of-type(9) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image10:checked ~ .wrap figure {
+  -webkit-transform: translateX(-900%);
+          transform: translateX(-900%);
+}
+.gallery input#image10:checked ~ .wrap figure:not(:nth-of-type(10)) {
+  opacity: 0;
+}
+.gallery input#image10:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(900%);
+          transform: translateY(900%);
+}
+.gallery input#image10:checked ~ .thumbnails .thumb:nth-of-type(10) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image11:checked ~ .wrap figure {
+  -webkit-transform: translateX(-1000%);
+          transform: translateX(-1000%);
+}
+.gallery input#image11:checked ~ .wrap figure:not(:nth-of-type(11)) {
+  opacity: 0;
+}
+.gallery input#image11:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(1000%);
+          transform: translateY(1000%);
+}
+.gallery input#image11:checked ~ .thumbnails .thumb:nth-of-type(11) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image12:checked ~ .wrap figure {
+  -webkit-transform: translateX(-1100%);
+          transform: translateX(-1100%);
+}
+.gallery input#image12:checked ~ .wrap figure:not(:nth-of-type(12)) {
+  opacity: 0;
+}
+.gallery input#image12:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(1100%);
+          transform: translateY(1100%);
+}
+.gallery input#image12:checked ~ .thumbnails .thumb:nth-of-type(12) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image13:checked ~ .wrap figure {
+  -webkit-transform: translateX(-1200%);
+          transform: translateX(-1200%);
+}
+.gallery input#image13:checked ~ .wrap figure:not(:nth-of-type(13)) {
+  opacity: 0;
+}
+.gallery input#image13:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(1200%);
+          transform: translateY(1200%);
+}
+.gallery input#image13:checked ~ .thumbnails .thumb:nth-of-type(13) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image14:checked ~ .wrap figure {
+  -webkit-transform: translateX(-1300%);
+          transform: translateX(-1300%);
+}
+.gallery input#image14:checked ~ .wrap figure:not(:nth-of-type(14)) {
+  opacity: 0;
+}
+.gallery input#image14:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(1300%);
+          transform: translateY(1300%);
+}
+.gallery input#image14:checked ~ .thumbnails .thumb:nth-of-type(14) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image15:checked ~ .wrap figure {
+  -webkit-transform: translateX(-1400%);
+          transform: translateX(-1400%);
+}
+.gallery input#image15:checked ~ .wrap figure:not(:nth-of-type(15)) {
+  opacity: 0;
+}
+.gallery input#image15:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(1400%);
+          transform: translateY(1400%);
+}
+.gallery input#image15:checked ~ .thumbnails .thumb:nth-of-type(15) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image16:checked ~ .wrap figure {
+  -webkit-transform: translateX(-1500%);
+          transform: translateX(-1500%);
+}
+.gallery input#image16:checked ~ .wrap figure:not(:nth-of-type(16)) {
+  opacity: 0;
+}
+.gallery input#image16:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(1500%);
+          transform: translateY(1500%);
+}
+.gallery input#image16:checked ~ .thumbnails .thumb:nth-of-type(16) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image17:checked ~ .wrap figure {
+  -webkit-transform: translateX(-1600%);
+          transform: translateX(-1600%);
+}
+.gallery input#image17:checked ~ .wrap figure:not(:nth-of-type(17)) {
+  opacity: 0;
+}
+.gallery input#image17:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(1600%);
+          transform: translateY(1600%);
+}
+.gallery input#image17:checked ~ .thumbnails .thumb:nth-of-type(17) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image18:checked ~ .wrap figure {
+  -webkit-transform: translateX(-1700%);
+          transform: translateX(-1700%);
+}
+.gallery input#image18:checked ~ .wrap figure:not(:nth-of-type(18)) {
+  opacity: 0;
+}
+.gallery input#image18:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(1700%);
+          transform: translateY(1700%);
+}
+.gallery input#image18:checked ~ .thumbnails .thumb:nth-of-type(18) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image19:checked ~ .wrap figure {
+  -webkit-transform: translateX(-1800%);
+          transform: translateX(-1800%);
+}
+.gallery input#image19:checked ~ .wrap figure:not(:nth-of-type(19)) {
+  opacity: 0;
+}
+.gallery input#image19:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(1800%);
+          transform: translateY(1800%);
+}
+.gallery input#image19:checked ~ .thumbnails .thumb:nth-of-type(19) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image20:checked ~ .wrap figure {
+  -webkit-transform: translateX(-1900%);
+          transform: translateX(-1900%);
+}
+.gallery input#image20:checked ~ .wrap figure:not(:nth-of-type(20)) {
+  opacity: 0;
+}
+.gallery input#image20:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(1900%);
+          transform: translateY(1900%);
+}
+.gallery input#image20:checked ~ .thumbnails .thumb:nth-of-type(20) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image21:checked ~ .wrap figure {
+  -webkit-transform: translateX(-2000%);
+          transform: translateX(-2000%);
+}
+.gallery input#image21:checked ~ .wrap figure:not(:nth-of-type(21)) {
+  opacity: 0;
+}
+.gallery input#image21:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(2000%);
+          transform: translateY(2000%);
+}
+.gallery input#image21:checked ~ .thumbnails .thumb:nth-of-type(21) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image22:checked ~ .wrap figure {
+  -webkit-transform: translateX(-2100%);
+          transform: translateX(-2100%);
+}
+.gallery input#image22:checked ~ .wrap figure:not(:nth-of-type(22)) {
+  opacity: 0;
+}
+.gallery input#image22:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(2100%);
+          transform: translateY(2100%);
+}
+.gallery input#image22:checked ~ .thumbnails .thumb:nth-of-type(22) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image23:checked ~ .wrap figure {
+  -webkit-transform: translateX(-2200%);
+          transform: translateX(-2200%);
+}
+.gallery input#image23:checked ~ .wrap figure:not(:nth-of-type(23)) {
+  opacity: 0;
+}
+.gallery input#image23:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(2200%);
+          transform: translateY(2200%);
+}
+.gallery input#image23:checked ~ .thumbnails .thumb:nth-of-type(23) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image24:checked ~ .wrap figure {
+  -webkit-transform: translateX(-2300%);
+          transform: translateX(-2300%);
+}
+.gallery input#image24:checked ~ .wrap figure:not(:nth-of-type(24)) {
+  opacity: 0;
+}
+.gallery input#image24:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(2300%);
+          transform: translateY(2300%);
+}
+.gallery input#image24:checked ~ .thumbnails .thumb:nth-of-type(24) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image25:checked ~ .wrap figure {
+  -webkit-transform: translateX(-2400%);
+          transform: translateX(-2400%);
+}
+.gallery input#image25:checked ~ .wrap figure:not(:nth-of-type(25)) {
+  opacity: 0;
+}
+.gallery input#image25:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(2400%);
+          transform: translateY(2400%);
+}
+.gallery input#image25:checked ~ .thumbnails .thumb:nth-of-type(25) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image26:checked ~ .wrap figure {
+  -webkit-transform: translateX(-2500%);
+          transform: translateX(-2500%);
+}
+.gallery input#image26:checked ~ .wrap figure:not(:nth-of-type(26)) {
+  opacity: 0;
+}
+.gallery input#image26:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(2500%);
+          transform: translateY(2500%);
+}
+.gallery input#image26:checked ~ .thumbnails .thumb:nth-of-type(26) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image27:checked ~ .wrap figure {
+  -webkit-transform: translateX(-2600%);
+          transform: translateX(-2600%);
+}
+.gallery input#image27:checked ~ .wrap figure:not(:nth-of-type(27)) {
+  opacity: 0;
+}
+.gallery input#image27:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(2600%);
+          transform: translateY(2600%);
+}
+.gallery input#image27:checked ~ .thumbnails .thumb:nth-of-type(27) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image28:checked ~ .wrap figure {
+  -webkit-transform: translateX(-2700%);
+          transform: translateX(-2700%);
+}
+.gallery input#image28:checked ~ .wrap figure:not(:nth-of-type(28)) {
+  opacity: 0;
+}
+.gallery input#image28:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(2700%);
+          transform: translateY(2700%);
+}
+.gallery input#image28:checked ~ .thumbnails .thumb:nth-of-type(28) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image29:checked ~ .wrap figure {
+  -webkit-transform: translateX(-2800%);
+          transform: translateX(-2800%);
+}
+.gallery input#image29:checked ~ .wrap figure:not(:nth-of-type(29)) {
+  opacity: 0;
+}
+.gallery input#image29:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(2800%);
+          transform: translateY(2800%);
+}
+.gallery input#image29:checked ~ .thumbnails .thumb:nth-of-type(29) {
+  opacity: 1;
+  cursor: default;
+}
+.gallery input#image30:checked ~ .wrap figure {
+  -webkit-transform: translateX(-2900%);
+          transform: translateX(-2900%);
+}
+.gallery input#image30:checked ~ .wrap figure:not(:nth-of-type(30)) {
+  opacity: 0;
+}
+.gallery input#image30:checked ~ .thumbnails .slider {
+  -webkit-transform: translateY(2900%);
+          transform: translateY(2900%);
+}
+.gallery input#image30:checked ~ .thumbnails .thumb:nth-of-type(30) {
+  opacity: 1;
+  cursor: default;
+}
 
 @-webkit-keyframes full {
   from {
@@ -451,4 +840,30 @@ body h1 {
   to {
     box-shadow: 0 0 0 100vmin rgba(24, 33, 45, 0.6), 0 0 10vmin rgba(13, 21, 31, 0.6);
   }
+}
+
+ol.list-unstyled.social-links {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.social_links li {
+  font-size: 1.5em;
+  padding: 0 15px 0 15px;
+  
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mastfoot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
