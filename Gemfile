@@ -57,3 +57,5 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 gem 'dangelo_view_tool', '~> 0.1.0'
 gem 'carrierwave-aws', '~> 1.3'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
+
+ruby "2.4.1"
